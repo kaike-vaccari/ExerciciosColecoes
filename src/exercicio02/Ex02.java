@@ -19,7 +19,7 @@ public class Ex02 {
 		preencher(lista);
 		System.out.println("Lista original: \n"+lista);
 		
-		System.out.println("Digite um número para procurar na lista: ");
+		System.out.println("\nDigite um número para procurar na lista: \n");
 		num = scan.nextInt();
 		
 		int ocorrencias = contarOcorrencia(lista, num);
