@@ -23,7 +23,8 @@ public class Ex01 {
 		System.out.println("\nAgora iremos remover os números pares...\n");
 		array.removeIf(n -> n%2==0);
 		System.out.println("Vetor depois da remoção dos números pares: \n"+array);
-
+		
+		scan.close();
 	}
 
 	private static void preencher(ArrayList<Integer> array, int tam) {
