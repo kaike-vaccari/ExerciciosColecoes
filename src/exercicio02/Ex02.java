@@ -26,6 +26,7 @@ public class Ex02 {
 		
 		System.out.println("O número de vezes que o número aparece é: "+ ocorrencias);
 		
+		scan.close();
 	}
 
 	private static void preencher(ArrayList<Integer> lista) {
