@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class Fila {
 	private LinkedList<Integer> fila;
 	
-	public Fila(LinkedList<Integer> fila) {
+	public Fila() {
 		this.fila = new LinkedList<Integer>();
 	}
 	
